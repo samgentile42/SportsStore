@@ -16,6 +16,14 @@ namespace SportsStore.Controllers
             repository = repo;
         }
 
-        public ViewResult List => View(repository.Products);
+        public IActionResult List()
+        {
+            return View(repository.Products);
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
