@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SportsStore.Infrastructture
+namespace SportsStore.Infrastructure
 {
     [HtmlTargetElement("div", Attributes ="page-model")]
     public class PageLinkTagHelper : TagHelper 
